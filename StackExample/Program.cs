@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace StackExample
 {
@@ -6,7 +7,15 @@ namespace StackExample
     {
         static void Main(string[] args)
         {
-           
+            //create a stack
+            var names = new Stack<string>();
+
+            //add elements into stack
+            names.Push("Shihab");
+            names.Push("Mishu");
+            names.Push("Rayhan");
+
+
         }
     }
 }
