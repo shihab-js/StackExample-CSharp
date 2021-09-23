@@ -20,6 +20,10 @@ namespace StackExample
             {
                 Console.WriteLine(name);
             }
+
+            //peek a element
+            Console.WriteLine(names.Peek());
+
         }
     }
 }
