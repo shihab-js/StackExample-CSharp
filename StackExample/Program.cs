@@ -24,6 +24,9 @@ namespace StackExample
             //peek a element
             Console.WriteLine(names.Peek());
 
+            //pop a element
+            Console.WriteLine(names.Pop());
+
         }
     }
 }
