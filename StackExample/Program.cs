@@ -15,7 +15,11 @@ namespace StackExample
             names.Push("Mishu");
             names.Push("Rayhan");
 
-
+            //Iterate the stack
+            foreach(var name in names)
+            {
+                Console.WriteLine(name);
+            }
         }
     }
 }
